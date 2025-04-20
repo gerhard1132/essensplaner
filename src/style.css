@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
+:root {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  line-height: 20px; 
+  font-weight: 400; 
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #131313;
+}
+
+.back-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.back-icon:hover {
+    cursor: pointer;
+}
+
+.view-heading {
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.container-left {
+  font-family: 'IBM Plex Mono', monospace;
+  width: 70%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-center {
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.games-box {
+  display: flex;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 25px;
+  width: 167px;
+  height: 100px;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: auto;
+  text-align: center;
+}
+
+.games-box:hover {
+  cursor: pointer;
+  background-color: white;
+  transition: .5s;
+  color:black;
+}
+
+.games-box-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+

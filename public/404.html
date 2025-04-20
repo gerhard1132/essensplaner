@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NichtRoman 404</title>
+    <style>
+        body {
+            font-family: 'IBM Plex Mono', monospace;
+            background-color: #e63131;
+            font-size: large;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px;
+            padding: 20px;
+            background-color: #131313;
+            border-radius: 30px;
+            border: dashed rgb(236, 123, 123);
+            box-shadow: 0 0 10px rgba(255, 123, 123, 0.1);
+            animation: pulsing 1s infinite alternate;
+        }
+
+        .container>* {
+            margin: 50px;
+        }
+
+
+        p {
+            color: #d3d1d1;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        @keyframes pulsing {
+            0% {
+                border-color: white;
+            }
+
+            100% {
+                border-color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>ERROR 404: Page not found</h1>
+        <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable. Check the current URI!</p>
+        <p>Please <a href="/">click here</a> to go back to the home page.</p>
+        <p>What does <span id="current-uri" style="color: red;"></span> even mean?! Do better..</p>
+    </div>
+
+    <script>
+        document.getElementById("current-uri").textContent = window.location.href;
+    </script>
+</body>
+
+</html>

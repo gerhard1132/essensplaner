@@ -1,0 +1,382 @@
+<Essensplan>
+    <breakfast>
+        <food NAME="Quark-Müsli" PROP="">
+            <item NAME="Quark" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Müsli" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Brot-Spiegelei-Tomate-Hummus :D" PROP="">
+            <item NAME="Eier" TYP="N" NUM="3" MAN="True" />
+            <item NAME="Brot" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Hummus" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Gemüsesticks mit Quark" PROP=""></food>
+        <food NAME="Haferbrei" PROP=""></food>
+    </breakfast>
+    <lunch>
+        <food NAME="Nudeln mit Tomatensoße" PROP="">
+            <item NAME="passierte Tomaten" TYP="L" NUM="500" MAN="True" />
+        </food>
+        <food NAME="Vegane Gemüselasagne" PROP="">
+            <item NAME="Lasagne Nudeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Paprika" TYP="N" NUM="2" MAN="True" />
+            <item NAME="Zucchini" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Pilze" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Möhren" TYP="N" NUM="3" MAN="True" />
+            <item NAME="Spinat" TYP="N" NUM="1" MAN="True" />
+            <item NAME="gehackte Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knoblauch" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Avocadonudeln" PROP="">
+            <item NAME="Avocado" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Hefeflocken" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Pasta" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Jackfruit Tacos" PROP="">
+            <item NAME="Jackfruit" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Tacos" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Sojajoghurt" TYP="N" NUM="1" MAN="True" />
+            <item NAME="BBQ Soße" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Liquid Smoke" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Frühlingszwieblen" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Mais" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Rotkohl" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Limetten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knoblauch" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Brokkoliauflauf" PROP="">
+            <item NAME="Oliven" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Brokkoli" TYP="N" NUM="1" MAN="True" />
+            <item NAME="veganer Käse" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Pasta" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Kapern" TYP="N" NUM="1" MAN="True" />
+            <item NAME="(Hafersahne)" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Paprikareis" PROP="">
+            <item NAME="Reis" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Paprika" TYP="N" NUM="1" MAN="True" />
+            <item NAME="passierte Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Chilischote" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knobi" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Oregano" TYP="N" NUM="1" MAN="True" />
+            <item NAME="S+P" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Gnocchipfanne" PROP="">
+            <item NAME="Gnocchi" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Zwiebel" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Champingions" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Kichererbsen" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Paprika" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Brokkoli" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Basikikum" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Oregano" TYP="N" NUM="1" MAN="True" />
+            <item NAME="S+P" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Karotten-Nudelpfanne" PROP="">
+            <item NAME="Lange Nudeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Karotten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Oliven" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="veganes Hähnchen" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Paprika" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Chili" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knoblauch" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Bohnen mit Kartoffeln" PROP="">
+            <item NAME="Bohnen" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Kartoffeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Olivenöl" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Überbackene Rucola-Brokkoli Nudeln" PROP="">
+            <item NAME="Rucola" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Brokkoli" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Cherry Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Oliven" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Kapern" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knoblauch" TYP="N" NUM="1" MAN="True" />
+            <item NAME="veganer Käse" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Pilzrisotto" PROP="">
+            <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knoblauchzehe" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Petersilie" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Pilze" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Risottoreis" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Zucchinisuppe" PROP="">
+            <item NAME="Zucchini" TYP="N" NUM="2" MAN="True" />
+            <item NAME="Kartoffel" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Zwiebel" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knoblauchzehe" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Gemüsebrühe" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Sojasahne" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Muskatnuss" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Chilipulver" TYP="N" NUM="1" MAN="True" />
+            <item NAME="S+P" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Olivenöl" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Bohnenpfanne" PROP="">
+            <item NAME="Reis" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Prinzessohnen" TYP="N" NUM="1" MAN="True" />
+            <item NAME="gehackte Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Oliven" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knobi" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Chili" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Bosten-Bohnentopf" PROP="">
+            <item NAME="Weiße Bohnen mit Suppengrün" TYP="N" NUM="1" MAN="True" />
+            <item NAME="gehackte Tomaten" TYP="N" NUM="2" MAN="True" />
+            <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Agavensirup" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Brot" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Apfelreis" PROP="">
+            <item NAME="Reis" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Lauch" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Äpfel" TYP="N" NUM="2" MAN="True" />
+            <item NAME="Walnüsse" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Honig/Agavensirup" TYP="N" NUM="1" MAN="True" />
+            <item NAME="(Feta)" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Kartoffel-Rocula-Pilz-Pfanne" PROP="">
+            <item NAME="Kartoffeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Rocula" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Pilze" TYP="N" NUM="1" MAN="True" />
+            <item NAME="(Schnitzel)" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Salat" PROP="">
+            <item NAME="Eisbergsalat" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Oliven" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Gurke" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Honig" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Senf" TYP="N" NUM="1" MAN="True" />
+            <item NAME="(Mais)" TYP="N" NUM="1" MAN="True" />
+            <item NAME="(Rocula)" TYP="N" NUM="1" MAN="True" />
+            <item NAME="(Feta)" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Lasagne-Pfanne" PROP=""></food>
+        <food NAME="Mango Klebreis" PROP=""></food>
+        <food NAME="Pad Krapow Tofu" PROP=""></food>
+        <food NAME="Bohnenpfanne" PROP=""></food>
+        <food NAME="Spaghetti mit Tofu" PROP=""></food>
+        <food NAME="Gemüselasagne" PROP=""></food>
+        <food NAME="Pizza" PROP=""></food>
+        <food NAME="Chinapfanne" PROP=""></food>
+        <food NAME="Erdnusstofu" PROP=""></food>
+        <food NAME="Masman Curry" PROP=""></food>
+        <food NAME="Burger" PROP=""></food>
+        <food NAME="Wurzelgemüse" PROP=""></food>
+        <food NAME="Nudeln und Tomatensoße" PROP=""></food>
+        <food NAME="Spaghetti aglio e olio" PROP=""></food>
+        <food NAME="Gefüllte Aubergine" PROP=""></food>
+        <food NAME="Ramen/ Ei/ Pak Choi" PROP=""></food>
+        <food NAME="Zuccini Galette" PROP=""></food>
+        <food NAME="Veganes Schnitzel/ Erbsen &amp; Möhren/ Kartoffelbrei" PROP=""></food>
+    </lunch>
+    <dinner>
+        <food NAME="Nudeln mit Tomatensoße" PROP="">
+            <item NAME="passierte Tomaten" TYP="L" NUM="500" MAN="True" />
+        </food>
+        <food NAME="Vegane Gemüselasagne" PROP="">
+            <item NAME="Lasagne Nudeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Paprika" TYP="N" NUM="2" MAN="True" />
+            <item NAME="Zucchini" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Pilze" TYP="N" NUM="1" MAN="True" /> 
+            <item NAME="Möhren" TYP="N" NUM="3" MAN="True" />
+            <item NAME="Spinat" TYP="N" NUM="1" MAN="True" />
+            <item NAME="gehackte Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knoblauch" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Avocadonudeln" PROP="">
+            <item NAME="Avocado" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Hefeflocken" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Pasta" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Jackfruit Tacos" PROP="">
+            <item NAME="Jackfruit" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Tacos" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Sojajoghurt" TYP="N" NUM="1" MAN="True" />
+            <item NAME="BBQ Soße" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Liquid Smoke" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Frühlingszwieblen" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Mais" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Rotkohl" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Limetten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knoblauch" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Brokkoliauflauf" PROP="">
+            <item NAME="Oliven" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Brokkoli" TYP="N" NUM="1" MAN="True" />
+            <item NAME="veganer Käse" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Pasta" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Kapern" TYP="N" NUM="1" MAN="True" />
+            <item NAME="(Hafersahne)" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Paprikareis" PROP="">
+            <item NAME="Reis" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Paprika" TYP="N" NUM="1" MAN="True" />
+            <item NAME="passierte Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Chilischote" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knobi" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Oregano" TYP="N" NUM="1" MAN="True" />
+            <item NAME="S+P" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Gnocchipfanne" PROP="">
+            <item NAME="Gnocchi" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Zwiebel" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Champingions" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Kichererbsen" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Paprika" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Brokkoli" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Basikikum" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Oregano" TYP="N" NUM="1" MAN="True" />
+            <item NAME="S+P" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Karotten-Nudelpfanne" PROP="">
+            <item NAME="Lange Nudeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Karotten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Oliven" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="veganes Hähnchen" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Paprika" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Chili" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knoblauch" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Bohnen mit Kartoffeln" PROP="">
+            <item NAME="Bohnen" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Kartoffeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Olivenöl" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Überbackene Rucola-Brokkoli Nudeln" PROP="">
+            <item NAME="Rucola" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Brokkoli" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Cherry Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Oliven" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Kapern" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knoblauch" TYP="N" NUM="1" MAN="True" />
+            <item NAME="veganer Käse" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Pilzrisotto" PROP="">
+            <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knoblauchzehe" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Petersilie" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Pilze" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Risottoreis" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Zucchinisuppe" PROP="">
+            <item NAME="Zucchini" TYP="N" NUM="2" MAN="True" />
+            <item NAME="Kartoffel" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Zwiebel" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knoblauchzehe" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Gemüsebrühe" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Sojasahne" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Muskatnuss" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Chilipulver" TYP="N" NUM="1" MAN="True" />
+            <item NAME="S+P" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Olivenöl" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Bohnenpfanne" PROP="">
+            <item NAME="Reis" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Prinzessohnen" TYP="N" NUM="1" MAN="True" />
+            <item NAME="gehackte Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Oliven" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Knobi" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Chili" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Bosten-Bohnentopf" PROP="">
+            <item NAME="Weiße Bohnen mit Suppengrün" TYP="N" NUM="1" MAN="True" />
+            <item NAME="gehackte Tomaten" TYP="N" NUM="2" MAN="True" />
+            <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Agavensirup" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Brot" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Apfelreis" PROP="">
+            <item NAME="Reis" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Lauch" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Äpfel" TYP="N" NUM="2" MAN="True" />
+            <item NAME="Walnüsse" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Honig/Agavensirup" TYP="N" NUM="1" MAN="True" />
+            <item NAME="(Feta)" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Kartoffel-Rocula-Pilz-Pfanne" PROP="">
+            <item NAME="Kartoffeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Rocula" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Pilze" TYP="N" NUM="1" MAN="True" />
+            <item NAME="(Schnitzel)" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Salat" PROP="">
+            <item NAME="Eisbergsalat" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Oliven" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Gurke" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Honig" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Senf" TYP="N" NUM="1" MAN="True" />
+            <item NAME="(Mais)" TYP="N" NUM="1" MAN="True" />
+            <item NAME="(Rocula)" TYP="N" NUM="1" MAN="True" />
+            <item NAME="(Feta)" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Lasagne-Pfanne" PROP=""></food>
+        <food NAME="Mango Klebreis" PROP=""></food>
+        <food NAME="Pad Krapow Tofu" PROP=""></food>
+        <food NAME="Bohnenpfanne" PROP=""></food>
+        <food NAME="Spaghetti mit Tofu" PROP=""></food>
+        <food NAME="Gemüselasagne" PROP=""></food>
+        <food NAME="Pizza" PROP=""></food>
+        <food NAME="Chinapfanne" PROP=""></food>
+        <food NAME="Erdnusstofu" PROP=""></food>
+        <food NAME="Masman Curry" PROP=""></food>
+        <food NAME="Burger" PROP=""></food>
+        <food NAME="Wurzelgemüse" PROP=""></food>
+        <food NAME="Nudeln und Tomatensoße" PROP=""></food>
+        <food NAME="Spaghetti aglio e olio" PROP=""></food>
+        <food NAME="Gefüllte Aubergine" PROP=""></food>
+        <food NAME="Ramen/ Ei/ Pak Choi" PROP=""></food>
+        <food NAME="Zuccini Galette" PROP=""></food>
+        <food NAME="Veganes Schnitzel/ Erbsen&amp;Möhren/ Kartoffelbrei" PROP=""></food>
+    </dinner>
+    <snack>
+        <food NAME="Kichererbsen" PROP="">
+            <item NAME="Kichererbsen" TYP="G" NUM="3" MAN="True" />
+        </food>
+        <food NAME="Reiswaffeln" PROP="" />
+        <food NAME="Kichererbsen Cookie Dough" PROP="">
+            <item NAME="Kichererbsen" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Banane" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Schokodrops" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Veganes Bananeneis" PROP="">
+            <item NAME="Banane" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Mandelmilch" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Proteinpulver" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Kidneybohnen Salat" PROP="">
+            <item NAME="Kidneybohnen" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Tomaten" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Gurken" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Hummus mit Gemüsesticks" PROP="">
+            <item NAME="Hummus" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Karottensticks" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Gurken" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Paprika" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Veganes Tiramisu" PROP="">
+            <item NAME="Reiswaffeln" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Backkakao" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Agavendicksaft/ Vanillegeschmack" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Kalter Kaffee" TYP="N" NUM="1" MAN="True" />
+            <item NAME="Skyr vegan" TYP="N" NUM="1" MAN="True" />
+        </food>
+        <food NAME="Kichererbsenkuchen" PROP=""></food>
+        <food NAME="Protein-Schokobällchen" PROP=""></food>
+    </snack>
+</Essensplan>

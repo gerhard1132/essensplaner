@@ -16,17 +16,17 @@
                             <td v-for="(day, index) in foodPlan" :key="day" :draggable="this.edit" @dragover.prevent
                                 @drop="dragFood1(day, type)" @dragstart="dragFood0(day, type)"
                                 :style="{ opacity: editRecipePop ? '0.7' : '1' }" @click="genNewFood(day, type)"
-                                :class="{ wigglebale: this.edit }" :title="getItemNames(day[type].item)">
-                                {{ day[type].$.NAME }}
+                                :class="{ wigglebale: this.edit }" :title="getItemNames(day[type].ITEMS)">
+                                {{ day[type].NAME }}
                             </td>
                         </tr>
                     </tbody>
 
                     <div class="editPopupStart" v-show="editRecipePop">
-                        <div style="margin-top: 10px; font-size: large;text-align: center;">{{ this.editRecipeObj.$.NAME
-                            }}</div>
+                        <div style="margin-top: 10px; font-size: large;text-align: center;">{{ this.editRecipeObj.NAME
+                        }}</div>
                         <div style="width: 100%; display: flex; flex-direction: column;align-items: center;">
-                            <li class="pupUpItem" v-for="item in this.editRecipeObj.item">{{ item.$.NAME }}</li>
+                            <li class="pupUpItem" v-for="item in this.editRecipeObj.ITEMS">{{ item }}</li>
                         </div>
                         <div>
                             <button style="margin: 5px;" @click="this.editRecipePop = false">Close</button>
@@ -37,36 +37,37 @@
                 <div class="Recipes" v-show="this.modus == 'Recipe'">
                     <div class="recipe-item" :style="{ opacity: editRecipePop ? '0.3' : '1' }">
                         <div style="margin-bottom: 10px;">Breakfast</div>
-                        <li class="recipie-lister" v-for="(food) in allRecipies.breakfast[0].food"
-                            @click="showIngedients(food)"> {{ food.$.NAME }}
+                        <li class="recipie-lister" v-for="(food) in allRecipies.breakfast"
+                            @click="showIngedients(food)"> {{ food.NAME }}
                         </li>
                     </div>
                     <div class="recipe-item" :style="{ opacity: editRecipePop ? '0.3' : '1' }">
                         <div style="margin-bottom: 10px;">Lunch</div>
-                        <li class="recipie-lister" v-for="(food) in allRecipies.lunch[0].food"
+                        <li class="recipie-lister" v-for="(food) in allRecipies.lunch"
                             @click="showIngedients(food)"> {{
-        food.$.NAME }}
+                            food.NAME }}
                         </li>
                     </div>
                     <div class="recipe-item" :style="{ opacity: editRecipePop ? '0.3' : '1' }">
                         <div style="margin-bottom: 10px;">Dinner</div>
-                        <li class="recipie-lister" v-for="(food) in allRecipies.dinner[0].food"
+                        <li class="recipie-lister" v-for="(food) in allRecipies.dinner"
                             @click="showIngedients(food)">
-                            {{ food.$.NAME
+                            {{ food.NAME
                             }}</li>
                     </div>
                     <div class="recipe-item" :style="{ opacity: editRecipePop ? '0.3' : '1' }">
                         <div style="margin-bottom: 10px;">Snack</div>
-                        <li class="recipie-lister" v-for="(food) in allRecipies.snack[0].food"
+                        <li class="recipie-lister" v-for="(food) in allRecipies.snack"
                             @click="showIngedients(food)">
-                            {{ food.$.NAME }}
+                            {{ food.NAME }}
                         </li>
                     </div>
+
                     <div class="editPopup" v-show="editRecipePop">
-                        <div style="margin: 20px; font-size: large;text-align: center;">{{ this.editRecipeObj.$.NAME }}
+                        <div style="margin: 20px; font-size: large;text-align: center;">{{ this.editRecipeObj.NAME }}
                         </div>
                         <div style="width: 100%; display: flex; flex-direction: column;align-items: center;">
-                            <li class="pupUpItem" v-for="item in this.editRecipeObj.item">{{ item.$.NAME }}</li>
+                            <li class="pupUpItem" v-for="item in this.editRecipeObj.ITEMS">{{ item }}</li>
                         </div>
                         <div>
                             <button @click="this.editRecipePop = false">Close</button>
@@ -75,7 +76,7 @@
                 </div>
             </div>
             <div class="Actions">
-                <button @click="generatePlan()">Generate new Plan</button>
+                <button @click="generatePlan()">New Plan</button>
                 <button @click="editPlan()">Edit Plan</button>
                 <button @click="manageRecipe()">All Recipes</button>
                 <button @click="copyList()">Copy List</button>
@@ -97,17 +98,8 @@
 import router from '../router';
 import axios from 'axios';
 
-const base = "https://nichtroman.de"
-
-class Day {
-    constructor(inName) {
-        this.name = inName
-        this.breakfast = { $: { "NAME": "Frühstück" } }
-        this.lunch = { $: { "NAME": "lunch" } }
-        this.dinner = { $: { "NAME": "dinner" } }
-        this.snack = { $: { "NAME": "snack" } }
-    }
-}
+//const base = "https://nichtroman.de"
+const base = "http://localhost:5000"
 
 export default {
     mounted() {
@@ -118,17 +110,12 @@ export default {
             if (this.edit) {
                 axios.get(base + '/api/generatePlan')
                     .then(res => {
-                        this.allDays.forEach(day => {
-                            let foundDay = this.foodPlan.find(item => item.name == day)
-                            this.foodTypes.forEach(food => {
-                                foundDay[food] = res.data[day][food]
-                            })
-                        })
+                        this.foodPlan = res
                     })
             }
         },
         genNewFood(day, type) {
-            if (day[type].$.NAME == "+") {
+            if (day[type].NAME == "+") {
                 axios.get(base + '/api/generateMeal', { params: { type } })
                     .then(res => {
                         console.log(res.data)
@@ -165,7 +152,6 @@ export default {
         },
         dragFood1(inDay, inType) {
             console.log(inDay, inType)
-            // Switch two foods in table (drag&drop)
             var helper = inDay[inType]
             inDay[inType] = this.oldPos["day"][this.oldPos["type"]]
             this.oldPos["day"][this.oldPos["type"]] = helper
@@ -190,7 +176,7 @@ export default {
         },
         getItemNames(itemList) {
             if (itemList && itemList.length > 0) {
-                return itemList.map(item => item.$.NAME).join(', ');
+                return itemList.map(item => item).join(', ');
             } else {
                 return '';
             }
@@ -215,10 +201,10 @@ export default {
         manageRecipe() {
             if (this.modus != "Recipe") { this.modus = "Recipe" }
             else { this.modus = "Planner" }
-            this.getAllTypes()
+            this.getAllFoods()
         },
-        getAllTypes() {
-            axios.get(base + '/api/getAllTypes')
+        getAllFoods() {
+            axios.get(base + '/api/getAllFoods')
                 .then(res => {
                     console.log(res.data)
                     this.allRecipies = res.data
@@ -246,21 +232,13 @@ export default {
             edit: false,
             editRecipePop: false,
             editRecipeObj: {
-                "$": "None",
-                "item": [{ "$": { "NAME": "None" } }]
+                "NAME": "None",
+                "ITEMS": []
             },
             oldPos: {},
             foodTypes: ["breakfast", "lunch", "dinner", "snack"],
             allDays: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-            foodPlan: [
-                new Day("Monday"),
-                new Day("Tuesday"),
-                new Day("Wednesday"),
-                new Day("Thursday"),
-                new Day("Friday"),
-                new Day("Saturday"),
-                new Day("Sunday")
-            ],
+            foodPlan: [],
             newItem: "",
             shopList: ["Erbsen", "Kichererbsen", "Quark", "2x Bananen"],
             allRecipies: {

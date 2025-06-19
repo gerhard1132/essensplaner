@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plan>
+  <Monday>
+    <breakfast NAME="Gemüsesticks mit Quark" PROP=""/>
+    <lunch NAME="Ramen/ Ei/ Pak Choi" PROP=""/>
+    <dinner NAME="Gefüllte Aubergine" PROP=""/>
+    <snack NAME="Kichererbsenkuchen" PROP=""/>
+  </Monday>
+  <Tuesday>
+    <breakfast NAME="Gemüsesticks mit Quark" PROP=""/>
+    <lunch NAME="Chinapfanne" PROP=""/>
+    <dinner NAME="Überbackene Rucola-Brokkoli Nudeln" PROP="">
+      <item NAME="Rucola" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Brokkoli" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Cherry Tomaten" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Oliven" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Kapern" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Knoblauch" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="veganer Käse" TYP="N" NUM="1" MAN="True"/>
+    </dinner>
+    <snack NAME="Protein-Schokobällchen" PROP=""/>
+  </Tuesday>
+  <Wednesday>
+    <breakfast NAME="Brot-Spiegelei-Tomate-Hummus :D" PROP="">
+      <item NAME="Eier" TYP="N" NUM="3" MAN="True"/>
+      <item NAME="Brot" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Tomaten" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Hummus" TYP="N" NUM="1" MAN="True"/>
+    </breakfast>
+    <lunch NAME="Gnocchipfanne" PROP="">
+      <item NAME="Gnocchi" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Zwiebel" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Champingions" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Kichererbsen" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Paprika" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Brokkoli" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Basikikum" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Oregano" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="S+P" TYP="N" NUM="1" MAN="True"/>
+    </lunch>
+    <dinner NAME="Chinapfanne" PROP=""/>
+    <snack NAME="Veganes Tiramisu" PROP="">
+      <item NAME="Reiswaffeln" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Backkakao" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Agavendicksaft/ Vanillegeschmack" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Kalter Kaffee" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Skyr vegan" TYP="N" NUM="1" MAN="True"/>
+    </snack>
+  </Wednesday>
+  <Thursday>
+    <breakfast NAME="Haferbrei" PROP=""/>
+    <lunch NAME="Bohnenpfanne" PROP="">
+      <item NAME="Reis" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Prinzessohnen" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="gehackte Tomaten" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Oliven" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Zwiebeln" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Knobi" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Chili" TYP="N" NUM="1" MAN="True"/>
+    </lunch>
+    <dinner NAME="Gemüselasagne" PROP=""/>
+    <snack NAME="Protein-Schokobällchen" PROP=""/>
+  </Thursday>
+  <Friday>
+    <breakfast NAME="Gemüsesticks mit Quark" PROP=""/>
+    <lunch NAME="Pizza" PROP=""/>
+    <dinner NAME="Gnocchipfanne" PROP="">
+      <item NAME="Gnocchi" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Zwiebel" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Champingions" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Kichererbsen" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Paprika" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Brokkoli" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Basikikum" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Oregano" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="S+P" TYP="N" NUM="1" MAN="True"/>
+    </dinner>
+    <snack NAME="Veganes Bananeneis" PROP="">
+      <item NAME="Banane" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Mandelmilch" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Proteinpulver" TYP="N" NUM="1" MAN="True"/>
+    </snack>
+  </Friday>
+  <Saturday>
+    <breakfast NAME="Haferbrei" PROP=""/>
+    <lunch NAME="Jackfruit Tacos" PROP="">
+      <item NAME="Jackfruit" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Tacos" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Sojajoghurt" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="BBQ Soße" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Liquid Smoke" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Frühlingszwieblen" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Mais" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Rotkohl" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Limetten" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Knoblauch" TYP="N" NUM="1" MAN="True"/>
+    </lunch>
+    <dinner NAME="Salat" PROP="">
+      <item NAME="Eisbergsalat" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Tomaten" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Oliven" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Gurke" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Honig" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Senf" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="(Mais)" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="(Rocula)" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="(Feta)" TYP="N" NUM="1" MAN="True"/>
+    </dinner>
+    <snack NAME="Hummus mit Gemüsesticks" PROP="">
+      <item NAME="Hummus" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Karottensticks" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Gurken" TYP="N" NUM="1" MAN="True"/>
+      <item NAME="Paprika" TYP="N" NUM="1" MAN="True"/>
+    </snack>
+  </Saturday>
+  <Sunday>
+    <breakfast NAME="Haferbrei" PROP=""/>
+    <lunch NAME="Gemüselasagne" PROP=""/>
+    <dinner NAME="Erdnusstofu" PROP=""/>
+    <snack NAME="Kichererbsenkuchen" PROP=""/>
+  </Sunday>
+</Plan>
